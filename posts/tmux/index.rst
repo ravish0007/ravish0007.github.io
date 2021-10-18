@@ -20,7 +20,7 @@ Shout out to `Jay <https://www.jaylacroix.com>`_ for making an awesome `series <
 It was 2 A.M already but kept on watching it, and I was able to pick up,
  - Prefix-z to zoom in and out of the current pane
  - Prefix-c to create windows, (prefix-,) to rename them and prefix-[n|m] to move between them
- - Creating sessions with better names made a lot of difference
+ - Creating sessions with better names and switching (prefix-s) between them made a lot of difference
 
 At the end of his series, he dropped his `config <https://pastebin.com/CDEVZTSC>`_ and I fiddled around with it and made `mine <https://github.com/ravish0007/dotfiles/blob/main/tmux.conf>`_ that fits my taste.
 
