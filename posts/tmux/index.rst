@@ -1,4 +1,4 @@
-.. title: Tmux is "Ahh! Nice!"
+.. title: Ahoy Tmux! Here we meet again! 
 .. slug: tmux
 .. date: 2021-10-18 17:57:10 UTC+05:30
 .. tags: 
@@ -9,7 +9,7 @@
 
 I encountered `tmux <https://github.com/tmux/tmux>`_ when I was looking for a method to run stuff in the background (mitigating ssh session termination). I later found out that it can do terminal multiplexing which is super impressive. It was quite some time ago.
 
-I was only able to do,
+Previously, I was only able to,
  - Create horizontal and vertical panes
  - Move between panes using prefix-o 
  - Create sessions and attach/detach them (confusing numbers)
