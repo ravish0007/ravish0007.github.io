@@ -11,7 +11,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://ravish0007.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/init/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/tmux/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -68,7 +68,44 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/init/" class="u-url">Getting over it</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/tmux/" class="u-url">Tmux is "Ahh! Nice!"</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Ravish
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/tmux/" rel="bookmark">
+            <time class="published dt-published" datetime="2021-10-18T17:57:10+05:30" itemprop="datePublished" title="2021-10-18 17:57">2021-10-18 17:57</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div>
+<p>I encountered <a class="reference external" href="https://github.com/tmux/tmux">tmux</a> when I was looking for a method to run stuff in background (mitigating ssh session termination). I later found out that it can do terminal multiplexing which is super impressive. It was quite some time ago.</p>
+<dl class="simple">
+<dt>I was only able to do,</dt>
+<dd><ul class="simple">
+<li><p>Create horizontal and vertical panes</p></li>
+<li><p>Move between panes using prefix-o</p></li>
+<li><p>Create sessions and attach/detach them (confusing numbers)</p></li>
+</ul></dd>
+</dl>
+<p>It was quite painful, felt not so flexible and was very ignorant to refine them.
+Shout out to <a class="reference external" href="https://www.jaylacroix.com">Jay</a> for making an awesome <a class="reference external" href="https://www.learnlinux.tv/getting-started-with-tmux/">series</a> on tmux.</p>
+<dl class="simple">
+<dt>It was 2 A.M already but kept on watching it, and I was able to pick up,</dt>
+<dd><ul class="simple">
+<li><p>Prefix-z to zoom in and out of current pane</p></li>
+<li><p>Prefix-c to create windows, (prefix-,) to rename them and prefix-[n|m] to move between them.</p></li>
+<li><p>Creating sessions with better names made a lot of difference</p></li>
+</ul></dd>
+</dl>
+<p>In the end of his series, he dropped his <a class="reference external" href="https://pastebin.com/CDEVZTSC">config</a> and I fiddled around with it and made <a class="reference external" href="https://github.com/ravish0007/dotfiles/blob/main/tmux.conf">mine</a> which fits my taste.</p>
+<p>Well, what is so special about it ?, you may ask !
+<br>
+Umm...! Nothing really ! It just feels home :)</p>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/init/" class="u-url">Getting over it</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Ravish

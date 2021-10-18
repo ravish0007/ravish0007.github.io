@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://ravish0007.github.io/archive.html</loc>
-  <lastmod>2021-10-18T11:36:00Z</lastmod>
+  <lastmod>2021-10-18T13:05:00Z</lastmod>
  </url>
  <url>
   <loc>https://ravish0007.github.io/categories/</loc>
@@ -32,5 +32,9 @@
  <url>
   <loc>https://ravish0007.github.io/posts/init/</loc>
   <lastmod>2021-10-18T11:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ravish0007.github.io/posts/tmux/</loc>
+  <lastmod>2021-10-18T13:05:00Z</lastmod>
  </url>
 </urlset>
