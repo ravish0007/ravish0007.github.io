@@ -94,8 +94,8 @@ body {
   counter-reset: definition;
   counter-reset: sidenote-counter;
 
-  color: #363431;
-  background-color: #faf9f5;
+  color: hsl(0, 5%, 10%);
+  background-color: hsl(210, 20%, 98%);
 
   text-rendering: optimizeLegibility;
 }

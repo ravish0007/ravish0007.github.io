@@ -1,8 +1,7 @@
 @media (prefers-color-scheme: dark) {
   html, body {
     color: #dcdcdc;
-    background-color: #f2f1ed;
-   /* background-color: #292929; */
+    background-color: #292929;
   }
 
   html *:not(input) {
