@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://hugotex.netlify.app/</loc>
+  </url><url>
+    <loc>https://hugotex.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://hugotex.netlify.app/series/</loc>
+  </url><url>
+    <loc>https://hugotex.netlify.app/tags/</loc>
+  </url>
+</urlset>
