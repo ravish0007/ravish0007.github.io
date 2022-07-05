@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://ravish0007.github.io/</loc>
-    <lastmod>2022-03-27T08:03:07+00:00</lastmod>
-  </url><url>
+    <lastmod>2022-07-04T08:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ravish0007.github.io/post/its-a-wrap/</loc>
+    <lastmod>2022-07-04T08:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ravish0007.github.io/post/</loc>
+    <lastmod>2022-07-04T08:03:07+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/post/joining-geekskool/</loc>
     <lastmod>2022-03-27T08:03:07+00:00</lastmod>
-  </url><url>
-    <loc>https://ravish0007.github.io/post/</loc>
-    <lastmod>2022-03-27T08:03:07+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/post/loophole-in-a-loophole/</loc>
     <lastmod>2021-11-07T11:39:07+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/post/tmux/</loc>
     <lastmod>2021-10-18T17:57:11+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/post/init/</loc>
     <lastmod>2021-07-28T20:42:11+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/series/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://ravish0007.github.io/tags/</loc>
   </url>
+  
 </urlset>
