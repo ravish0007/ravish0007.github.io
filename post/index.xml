@@ -14,7 +14,7 @@
       
       <guid>https://ravish0007.github.io/post/gitlab-lxc/</guid>
       <description>Hello, let us install GitLab (community edition), locally, with lxc container, from Debian FastTrack repository.
-Install lxc sudo apt install lxc Create and attach to a bullseye (unstable for testing) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of fasttrack apt install fasttrack-archive-keyring ca-certificates  echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&amp;#39; &amp;gt; /etc/apt/sources.list.d/fasttrack.list echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.</description>
+Install lxc sudo apt install lxc Create and attach to a bullseye (unstable for testing) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of FastTrack apt install fasttrack-archive-keyring ca-certificates  echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&amp;#39; &amp;gt; /etc/apt/sources.list.d/fasttrack.list echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.</description>
     </item>
     
     <item>

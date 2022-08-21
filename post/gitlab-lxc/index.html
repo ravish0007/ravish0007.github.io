@@ -56,7 +56,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>sudo lxc-create -n gitlab -t debian -- -r bullseye
 </span></span><span style="display:flex;"><span>sudo lxc-start -n gitlab
 </span></span><span style="display:flex;"><span>sudo lxc-attach -n gitlab
-</span></span></code></pre></div><h4 id="install-keyring-and-repos-of-fasttrack">Install keyring and repos of fasttrack</h4>
+</span></span></code></pre></div><h4 id="install-keyring-and-repos-of-fasttrack">Install keyring and repos of FastTrack</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>apt install fasttrack-archive-keyring ca-certificates
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>echo &#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&#39; &gt; /etc/apt/sources.list.d/fasttrack.list
@@ -69,7 +69,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>apt update
 </span></span><span style="display:flex;"><span>apt install gitlab-apt-pin-preferences
 </span></span><span style="display:flex;"><span>apt install gitlab
-</span></span></code></pre></div><h4 id="set-hostname-during-install">Set hostname during Install</h4>
+</span></span></code></pre></div><h4 id="set-hostname-during-installation">Set hostname during installation</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>gitlab hostname = gitlab.lxc
 </span></span></code></pre></div><h4 id="add-gitlablxc-in-host-machines-etchosts">Add gitlab.lxc in host machine&rsquo;s /etc/hosts</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>  gitlab.lxc  ip_address_of_container
