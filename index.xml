@@ -8,13 +8,13 @@
     <language>en</language>
     <lastBuildDate>Sat, 20 Aug 2022 08:03:07 +0000</lastBuildDate><atom:link href="https://ravish0007.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Local GitLab Installation with LXC containers</title>
+      <title>Local GitLab Installation with LXC container, Debian stable (bullseye)</title>
       <link>https://ravish0007.github.io/post/gitlab-lxc/</link>
       <pubDate>Sat, 20 Aug 2022 08:03:07 +0000</pubDate>
       
       <guid>https://ravish0007.github.io/post/gitlab-lxc/</guid>
       <description>Hello, let us install GitLab (community edition), locally, with lxc container, from Debian FastTrack repository.
-Install lxc sudo apt install lxc Create and attach to a bullseye (unstable for testing) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of FastTrack apt install fasttrack-archive-keyring ca-certificates  echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&amp;#39; &amp;gt; /etc/apt/sources.list.d/fasttrack.list echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.</description>
+Install lxc sudo apt install lxc Create and attach to a bullseye (stable) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of FastTrack apt install fasttrack-archive-keyring ca-certificates echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&amp;#39; &amp;gt; /etc/apt/sources.list.d/fasttrack.list echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ I got a call on next day, and I was told to study the first six chapters of Eloq
       <guid>https://ravish0007.github.io/post/tmux/</guid>
       <description>I encountered tmux when I was looking for a method to run stuff in the background (mitigating ssh session termination). I later found out that it can do terminal multiplexing which is super impressive. It was quite some time ago.
 Previously, I was only able to,
- Create horizontal and vertical panes Move between panes using prefix-o Create sessions and attach/detach them (confusing numbers)  It was quite painful, felt not so flexible and was very ignorant to refine them.</description>
+Create horizontal and vertical panes Move between panes using prefix-o Create sessions and attach/detach them (confusing numbers) It was quite painful, felt not so flexible and was very ignorant to refine them.</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Previously, I was only able to,
       <guid>https://ravish0007.github.io/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
- https://github.</description>
+https://github.com/yuin/goldmark https://github.</description>
     </item>
     
   </channel>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><meta charset="utf-8" />
 
-  <title>Local GitLab Installation with LXC containers - ./ravi.sh</title>
+  <title>Local GitLab Installation with LXC container, Debian stable (bullseye) - ./ravi.sh</title>
 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://ravish0007.github.io/css/main.css" />
 <link rel="stylesheet" href="https://ravish0007.github.io/css/darkmode.css" />
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<meta name="generator" content="Hugo 0.96.0" /><body>
+<meta name="generator" content="Hugo 0.101.0" /><body>
 
 
 
@@ -31,7 +31,7 @@
     <div class="container">
       <div class="post-heading">
         
-          <h1>Local GitLab Installation with LXC containers</h1>
+          <h1>Local GitLab Installation with LXC container, Debian stable (bullseye)</h1>
           
         
       </div>
@@ -52,7 +52,7 @@
     <p>Hello, let us install GitLab (community edition), locally, with lxc container, from Debian FastTrack repository.</p>
 <h4 id="install-lxc">Install lxc</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>sudo apt install lxc
-</span></span></code></pre></div><h4 id="create-and-attach-to-a-bullseye-unstable-for-testing-container">Create and attach to a bullseye (unstable for testing) container</h4>
+</span></span></code></pre></div><h4 id="create-and-attach-to-a-bullseye-stable-container">Create and attach to a bullseye (stable) container</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>sudo lxc-create -n gitlab -t debian -- -r bullseye
 </span></span><span style="display:flex;"><span>sudo lxc-start -n gitlab
 </span></span><span style="display:flex;"><span>sudo lxc-attach -n gitlab

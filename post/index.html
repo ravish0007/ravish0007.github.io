@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://ravish0007.github.io/css/main.css" />
 <link rel="stylesheet" href="https://ravish0007.github.io/css/darkmode.css" />
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<meta name="generator" content="Hugo 0.96.0" /><body>
+<meta name="generator" content="Hugo 0.101.0" /><body>
 
 
 
@@ -48,7 +48,7 @@
       
         <article class="post-preview">
   <a href="https://ravish0007.github.io/post/gitlab-lxc/">
-      <h2 class="post-title">Local GitLab Installation with LXC containers</h2>
+      <h2 class="post-title">Local GitLab Installation with LXC container, Debian stable (bullseye)</h2>
   </a>
   <div class="postmeta">
     <span class="meta-post">
@@ -59,7 +59,7 @@
   <div class="post-entry">
     
       <p>Hello, let us install GitLab (community edition), locally, with lxc container, from Debian FastTrack repository.
-Install lxc sudo apt install lxc Create and attach to a bullseye (unstable for testing) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of FastTrack apt install fasttrack-archive-keyring ca-certificates  echo &#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&#39; &gt; /etc/apt/sources.list.d/fasttrack.list echo &#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&#39; &gt;&gt; /etc/apt/sources.</p>
+Install lxc sudo apt install lxc Create and attach to a bullseye (stable) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of FastTrack apt install fasttrack-archive-keyring ca-certificates echo &#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&#39; &gt; /etc/apt/sources.list.d/fasttrack.list echo &#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&#39; &gt;&gt; /etc/apt/sources.</p>
         <a href="https://ravish0007.github.io/post/gitlab-lxc/" class="post-read-more">Read More</a>
     
   </div>
