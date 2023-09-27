@@ -6,7 +6,18 @@
     <description>Recent content in Posts on ./ravi.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Aug 2022 02:15:07 +0000</lastBuildDate><atom:link href="https://ravish0007.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 06:06:11 +0530</lastBuildDate><atom:link href="https://ravish0007.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello world (again)</title>
+      <link>https://ravish0007.github.io/post/where-was-i/</link>
+      <pubDate>Wed, 27 Sep 2023 06:06:11 +0530</pubDate>
+      
+      <guid>https://ravish0007.github.io/post/where-was-i/</guid>
+      <description>I&amp;rsquo;m with nighthack now, and I had lost access to source of this blog. Meanwhile I have been tinkering, learning fuctional bits, gave a retry to all the things that were in my mind.
+Well, This is a blog post is to put back the online presense. I also went to Debian India conference, made some friends, it was an incredible experience.
+Right now, I and my team working towards no code tools, we are in db-builder team.</description>
+    </item>
+    
     <item>
       <title>Hello Project-Euler 47, I&#39;m ravish0007</title>
       <link>https://ravish0007.github.io/post/hello-47/</link>
@@ -15,16 +26,6 @@
       <guid>https://ravish0007.github.io/post/hello-47/</guid>
       <description>Hello again, let us talk to project-euler 47 (https://projecteuler.net/problem=47). My friend Vin* is little cool, she bugged me with project-euler-47, this post is just a text version of my thoughts and few little random walks.
 Distinct prime factors The first two consecutive numbers to have two distinct prime factors are: 14 = 2 × 7 15 = 3 × 5 The first three consecutive numbers to have three distinct prime factors are: 644 = 2² × 7 × 23 645 = 3 × 5 × 43 646 = 2 × 17 × 19.</description>
-    </item>
-    
-    <item>
-      <title>Local GitLab Installation with LXC container, Debian stable (bullseye)</title>
-      <link>https://ravish0007.github.io/post/gitlab-lxc/</link>
-      <pubDate>Sat, 20 Aug 2022 08:03:07 +0000</pubDate>
-      
-      <guid>https://ravish0007.github.io/post/gitlab-lxc/</guid>
-      <description>Hello, let us install GitLab (community edition), locally, with lxc container, from Debian FastTrack repository.
-Install lxc sudo apt install lxc Create and attach to a bullseye (stable) container sudo lxc-create -n gitlab -t debian -- -r bullseye sudo lxc-start -n gitlab sudo lxc-attach -n gitlab Install keyring and repos of FastTrack apt install fasttrack-archive-keyring ca-certificates echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-fasttrack main contrib&amp;#39; &amp;gt; /etc/apt/sources.list.d/fasttrack.list echo &amp;#39;deb https://fasttrack.debian.net/debian/ bullseye-backports-staging main contrib&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.</description>
     </item>
     
     <item>
