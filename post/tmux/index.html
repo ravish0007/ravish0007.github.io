@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8" />
+
+  <title>Ahoy Tmux! Here we meet again! - ./ravi.sh</title>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://ravish0007.github.io/css/latex.css" />
+<link rel="stylesheet" href="https://ravish0007.github.io/css/main.css" />
+<link rel="stylesheet" href="https://ravish0007.github.io/css/darkmode.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.118.2"><body>
+
+
+
+
+
+
+<header>
+  <nav class="navbar">
+  <div class="nav">
+    
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
+</nav>
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>Ahoy Tmux! Here we meet again!</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Oct 18, 2021
+  
+</span>
+      </div>
+      <br>
+      
+    <p>I encountered <a href="https://github.com/tmux/tmux">tmux</a> when I was looking for a method to run stuff in the background (mitigating ssh session termination).
+I later found out that it can do terminal multiplexing which is super impressive. It was quite some time ago.</p>
+<p>Previously, I was only able to,</p>
+<ul>
+<li>Create horizontal and vertical panes</li>
+<li>Move between panes using prefix-o</li>
+<li>Create sessions and attach/detach them (confusing numbers)</li>
+</ul>
+<p>It was quite painful, felt not so flexible and was very ignorant to refine them.
+Shout out to <a href="https://www.jaylacroix.com">Jay</a> for making an awesome <a href="https://www.learnlinux.tv/getting-started-with-tmux/">series</a> on tmux.</p>
+<p>It was 2 A.M already but kept on watching it, and I was able to pick up,</p>
+<ul>
+<li>Prefix-z to zoom in and out of the current pane</li>
+<li>Prefix-c to create windows, (prefix-,) to rename them and prefix-[n|m] to move between them</li>
+<li>Creating sessions with better names and switching (prefix-s) between them made a lot of difference</li>
+</ul>
+<p>At the end of his series, he dropped his <a href="https://pastebin.com/CDEVZTSC">config</a> and I fiddled around with it and made <a href="https://github.com/ravish0007/dotfiles/blob/main/tmux.conf">mine</a> that fits my taste.</p>
+<p>Well, what is so special about it? you may ask!
+Umm! Nothing really! It just feels home.</p>
+
+
+
+      
+    </article>
+    
+  </div>
+
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/HelloRusk/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="https://ravish0007.github.io/about">Ravish Shankar</a>
+        &copy;
+        2023
+      </p>
+  </div>
+</footer></body>
+</html>
