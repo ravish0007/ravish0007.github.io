@@ -6,7 +6,22 @@
     <description>Recent content on ./ravi.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Sep 2023 06:06:11 +0530</lastBuildDate><atom:link href="https://ravish0007.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Sep 2023 06:08:21 +0530</lastBuildDate><atom:link href="https://ravish0007.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Living Clojure] Getting started</title>
+      <link>https://ravish0007.github.io/post/getting-started-clojure/</link>
+      <pubDate>Thu, 28 Sep 2023 06:08:21 +0530</pubDate>
+      
+      <guid>https://ravish0007.github.io/post/getting-started-clojure/</guid>
+      <description>Clojure targets JVM, hence make sure java is installed.
+java --version Following is my JDK version.
+openjdk 11.0.20.1 2023-08-24 OpenJDK Runtime Environment (build 11.0.20.1+1) OpenJDK 64-Bit Server VM (build 11.0.20.1+1, mixed mode) Next up, install leiningen
+a) Create a project
+lein new lalaland b) CD into that
+cd wonderland c) Get the clojure REPL by running following command
+lein repl The above command shall give you repl and looks similar down below.</description>
+    </item>
+    
     <item>
       <title>Hello world (again)</title>
       <link>https://ravish0007.github.io/post/where-was-i/</link>
