@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ./ravi.sh</title>
+    <link>https://ravish0007.github.io/post/</link>
+    <description>Recent content in Posts on ./ravi.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Mar 2022 08:03:07 +0000</lastBuildDate><atom:link href="https://ravish0007.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joining GeekSkool</title>
+      <link>https://ravish0007.github.io/post/joining-geekskool/</link>
+      <pubDate>Sun, 27 Mar 2022 08:03:07 +0000</pubDate>
+      
+      <guid>https://ravish0007.github.io/post/joining-geekskool/</guid>
+      <description>I was searching for a few jobs on hasjobs.co and stumbled upon a post that pointed to GeekSkool, a programming boot camp, which I applied to it later on.
+I got a call the next day, and I was told to read the first six chapters of Eloquent JavaScript. After completing it, I had to go to GeekSkool for a screening test, which almost got ruined by not answering &amp;ldquo;Name inbuilt data types in JS + What&amp;rsquo;s a Closure ?</description>
+    </item>
+    
+    <item>
+      <title>Loophole in a Loophole</title>
+      <link>https://ravish0007.github.io/post/loophole-in-a-loophole/</link>
+      <pubDate>Sun, 07 Nov 2021 11:39:07 +0000</pubDate>
+      
+      <guid>https://ravish0007.github.io/post/loophole-in-a-loophole/</guid>
+      <description>When I surf on the web, sometimes there won&amp;rsquo;t be a limit to curiosity. When I look at a catchy program, I want to try it at that very instant, but this is almost impossible in a typical work computer. For each software, I either had to look into the employer’s custom app store or write a mail to local IT and wait for several hours or sometimes days, and it better had a business use case to them.</description>
+    </item>
+    
+    <item>
+      <title>Ahoy Tmux! Here we meet again!</title>
+      <link>https://ravish0007.github.io/post/tmux/</link>
+      <pubDate>Mon, 18 Oct 2021 17:57:11 +0530</pubDate>
+      
+      <guid>https://ravish0007.github.io/post/tmux/</guid>
+      <description>I encountered tmux when I was looking for a method to run stuff in the background (mitigating ssh session termination). I later found out that it can do terminal multiplexing which is super impressive. It was quite some time ago.
+Previously, I was only able to,
+ Create horizontal and vertical panes Move between panes using prefix-o Create sessions and attach/detach them (confusing numbers)  It was quite painful, felt not so flexible and was very ignorant to refine them.</description>
+    </item>
+    
+    <item>
+      <title>Getting Over It</title>
+      <link>https://ravish0007.github.io/post/init/</link>
+      <pubDate>Wed, 28 Jul 2021 20:42:11 +0530</pubDate>
+      
+      <guid>https://ravish0007.github.io/post/init/</guid>
+      <description>Reminding myself about The Law of Triviality, I decided that I ought to settle for writing, not preplanning of layouts or design or yada yada. In the past, all my nerdy and geeky broadcasts were nothing but few video clips scattered on my Instagram and disappeared WhatsApp statuses. After joining Summer Training from dgplug and following their advice on blogging plus recalling a bit of &amp;quot;Portfolio v/s resume&amp;quot; made me write this very post and told myself how cool this was.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+baseURL = "https://ravish0007.github.io/"
+title = "./ravi.sh"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[author]
+name = "Ravish Shankar"
+abstract = "I steal ideas, dotfiles and programs. Finally glue things up"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
