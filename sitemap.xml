@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/docs/living-clojure/the-structure-of-clojure/simple-values/</loc>
+    <lastmod>2023-09-28T06:08:21+05:30</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2023-09-28T06:08:21+05:30</lastmod>
   </url><url>
@@ -9,6 +12,9 @@
     <lastmod>2023-09-28T06:08:21+05:30</lastmod>
   </url><url>
     <loc>/docs/living-clojure/</loc>
+    <lastmod>2023-09-28T06:08:21+05:30</lastmod>
+  </url><url>
+    <loc>/docs/living-clojure/the-structure-of-clojure/</loc>
     <lastmod>2023-09-28T06:08:21+05:30</lastmod>
   </url><url>
     <loc>/posts/where-was-i/</loc>
