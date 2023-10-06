@@ -2,6 +2,7 @@
 title: "Living Clojure"
 date: 2023-09-28T06:08:21+05:30
 draft: false
+next: docs/living-clojure/the-structure-of-clojure 
 ---
 
 [Clojure](https://clojure.org) targets JVM, hence make sure java is installed.
@@ -26,7 +27,7 @@ lein new lalaland
 
 b) CD into that
 ```
-cd wonderland
+cd lalaland
 ```
 
 c) Get the clojure REPL by running following command
