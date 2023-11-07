@@ -62,6 +62,8 @@
   </url><url>
     <loc>/about/</loc>
   </url><url>
+    <loc>/docs/sway-outputs/</loc>
+  </url><url>
     <loc>/tags/</loc>
   </url>
 </urlset>
