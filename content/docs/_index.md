@@ -1,18 +1,6 @@
 ---
-title: Documentation
-next: first-page
+title: Docs
+next: learn-you-haskell
 ---
 
-This is a demo of the theme's documentation layout.
-
-## Hello, World!
-
-```go {filename="main.go"}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+This section contains different pieces that were carried out in the past to be referred later.
