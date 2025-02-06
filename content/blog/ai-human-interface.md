@@ -1,5 +1,5 @@
 ---
-title: AI Human interface
+title: AI Human Interface
 type: blog
 ---
 
