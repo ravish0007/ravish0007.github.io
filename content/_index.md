@@ -3,7 +3,7 @@ title:
 toc: false
 ---
 
-Hi there, I'm Ravish and I'm a software dev and there is where I write stuff.
+Hi there, I'm Ravish and I'm a software dev and this is where I write stuff.
 
 ## Explore
 
