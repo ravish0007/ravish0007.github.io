@@ -2,7 +2,7 @@
 title: Screen orientation in Sway
 type: docs
 prev: living-clojure
-# next: docs/living-clojure
+next: docs/clipboard-copy-lan-mouse
 ---
 
 To automatically adjust my monitors on start up, I need to do the following and put it in sway config.
