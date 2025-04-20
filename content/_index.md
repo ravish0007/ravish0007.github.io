@@ -12,5 +12,7 @@ Hi there, I'm Ravish and I'm a software dev and this is where I write stuff.
 
 {{< card link="blog" title="Blog" icon="pencil" >}}
 
+{{< card link="youtube" title="Youtube" icon="youtube" >}}
+
 {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
