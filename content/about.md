@@ -12,4 +12,5 @@ Currently, my interests are aligned with learning FP.
 Email: ravish.nfs [AT] gmail.com <br/>
 SecureEmail: ravish0007 [AT] disroot.org </br>
 XMPP: ravish0007 [AT] disroot.org <br/>
-LinkedIn: linkedin.com/in/ravish-shankar
+LinkedIn: linkedin.com/in/ravish-shankar </br>
+GPG: https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x4580a81f97d24ce8
